@@ -5,20 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login/signup</title>
     <link href="css/login.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
 </head>
 <body>
     <div class="container">
         <div class="login-page">
             <div class="form">
-                <form>
+                <form class="register-form">
                     <input type="text" placeholder="user name"/>
                     <input type="text" placeholder="password"/>
                     <input type="text" placeholder="email id"/>
                     <button>Creat</button>
+                    <p class="message">Already Registered <a href="#"> login  </a></p>
+                </form>
+
+                <form class="login-fom">
+                    <input type="text" placeholder="user name"/>
+                    <input type="text" placeholder="password"/>
+                    <button>login</button>
+                    <p class="message">Not Registered <a href="#">Register here</a></p>
                 </form>
             </div>
         </div>
     </div>
+     
 </body>
 </html>
