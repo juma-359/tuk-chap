@@ -8,9 +8,10 @@
 }
 
 body{
-  background-image: url('https://preview.ibb.co/daZ4GQ/1_Tk_Eo_B7y.jpg');
+  background-image: url('https://bit.ly/2woXZHJ');
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
+  opacity: 1;
 }
 
 .cont{
@@ -29,7 +30,7 @@ h1 {
   text-align: center;
 }
 
-span.orange {
+span.red{
   display: inline;
   font-size: 75px;
   color: #ffa700;
