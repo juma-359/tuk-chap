@@ -1,8 +1,3 @@
-// $('.message a').click(function(){
-//     $('form').animate({height:"toggle", opacity:"toggle"});
-// });
-
-// 
 const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
 const container = document.getElementById('container');
