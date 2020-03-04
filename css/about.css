@@ -1,0 +1,37 @@
+.home{
+    background-position: center;
+    background: url("../images/tuk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+
+
+.commercial2{
+    height: 300px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.commercial1{
+    height: 300px;
+    padding-top: 70px;
+}
+
+.commercial4{
+    height: 250px;
+    padding-top: 80px;
+}
+
+.commercial5{
+   
+}
+
+.row .subscribe{
+    height: 200px;
+}
+
+.team{
+    height: 400px;
+}
