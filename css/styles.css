@@ -112,6 +112,7 @@ h1 span{
     height: 70vh;
     animation: slide 20s infinite;
     padding-top: 100px;
+    margin-top: 0;
 }
 .slide{
     color:white;
@@ -145,10 +146,10 @@ li{
 }
 @keyframes slide{
     0%{
-        background-image: url('https://bit.ly/32Sijxl');
+        background-image: url("https://bit.ly/32TuQAg");
     }
     20%{
-        background-image: url('https://bit.ly/32Sijxl');
+        background-image: url('https://bit.ly/32TuQAg');
     }
     20.01%{
         background-image: url('https://bit.ly/39socDU');
@@ -157,23 +158,22 @@ li{
         background-image: url('https://bit.ly/39socDU');
     }
     40.01%{
-        background-image: url('https://bit.ly/2vwmpPv');
+        background-image: url('https://bit.ly/3apNlik');
     }
     60%{
-        background-image: url('https://bit.ly/2vwmpPv');
+        background-image: url('https://bit.ly/3apNlik');
     }
     60.01%{
-        background-image: url('https://bit.ly/2IlHgrj');
+        background-image: url('https://bit.ly/3ay9YRJ');
     }
     80%{
-        background-image: url('https://bit.ly/2IlHgrj');
+        background-image: url('https://bit.ly/3ay9YRJ');
     }
     80.01%{
-        background-image: url('https://bit.ly/38seekq');
+        background-image: url('https://bit.ly/2TpI8le');
     }
-
     100%{
-        background-image: url('https://bit.ly/38seekq');
+        background-image: url('https://bit.ly/2TpI8le');
     }
 }
 
