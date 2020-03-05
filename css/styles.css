@@ -56,7 +56,6 @@ nav a::before{
     height: 5px;
     width: 100%;
     background-color: #444;
-
     position: absolute;
     top: 0;
     width: 0%;
@@ -85,7 +84,7 @@ h1:before{
     width: 120%;
     height: 100%;
     background: linear-gradient(90deg,transparent 0%,#000 5%,#000 100%);
-    animation: animate 3s linear forwards;
+    animation: animate 2s linear forwards;
     animation-delay: 3 seconds;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
@@ -176,4 +175,14 @@ li{
         background-image: url('https://bit.ly/2TpI8le');
     }
 }
-
+.footer{
+    color:black;
+    background-color:#F54B42 ;
+    padding-top: 0;
+    height: 50px;
+    text-align: center;
+}
+.footer ul{
+    padding-top: 20px;
+    font-weight: 900;
+}
