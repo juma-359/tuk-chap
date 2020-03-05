@@ -98,3 +98,8 @@ vertical-align: top;
 display: inline;
 
 }
+ul,li,a{
+  list-style-type: none;
+  text-align: center;
+  font-size: 100px;
+}
