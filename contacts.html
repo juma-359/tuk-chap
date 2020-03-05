@@ -17,54 +17,62 @@
         </h1>
         <div class="contact">
       
-          <input type="text" 
+          <input  id="name1" type="text" 
                  class="c1"
                  placeholder="First name *" />
       
-          <input type="text"
+          <input  id="name2" type="text"
                  class="c2"
                  placeholder="Last name *" />
       
-          <input type="email"
+          <input id="email" type="email"
                  class="c3"
                  placeholder="Email address *" />
       
-          <textarea class="c4"
+          <textarea id="message" class="c4"
                     placeholder="Message" ></textarea>
       
-         <button type="submit" class="btn btn-outline-danger btn-lg w-75">Send</button>
+         <button type="submit" class="btn btn-outline-danger btn-lg w-75" onclick="myFunction()">Send</button>
       
         </div>
       </div>
-      <div>
-             <footer>
-              <ul class="social">
-                     <li>
-                         <a  href="https://www.facebook.com/">
-                             <ion-icon class="logo-facebook" name="logo-facebook"></ion-icon>
-                         </a>
-                     </li>
-                     <li>
-                         <a href="https://twitter.com/">
-                             <ion-icon style="color: aqua"logo-twitter" name="logo-twitter"></ion-icon>
-                         </a>
-                     </li>
-                     <li>
-                         <a href="https://www.instagram.com/">
-                             <ion-icon styleclass="logo-instagram" name="logo-instagram"></ion-icon>
-                         </a>
-                     </li>
-                     <li>
-                         <a href="https://github.com/">
-                             <ion-icon style="color: #000;"class="logo-github" name="logo-github"></ion-icon>
-                         </a>
-                     </li>
-                 </ul>
-             </div>
-             <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-             <p> &copy 2020  </p>
-             </footer>
-      </div>
+      
+            <div id="para">
+                <footer >
+                    <ul class="social">
+                           <li>
+                               <a  href="https://www.facebook.com/">
+                                   <ion-icon style="color: blue;"class="logo-facebook" name="logo-facebook"></ion-icon>
+                               </a>
+                           </li>
+                           <li>
+                               <a href="https://twitter.com/">
+                                   <ion-icon style="color: aqua;"logo-twitter name="logo-twitter"></ion-icon>
+                               </a>
+                           </li>
+                           <li>
+                               <a href="https://www.instagram.com/">
+                                   <ion-icon style="color: #e83e8c;;"class="logo-instagram" name="logo-instagram"></ion-icon>
+                               </a>
+                           </li>
+                           <li>
+                               <a href="https://github.com/">
+                                   <ion-icon style="color: black;"class="logo-github" name="logo-github"></ion-icon>
+                               </a>
+                           </li>
+                       </ul>
+                       <p> &copy 2020  </p>
+                   </div>
+                   <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+                   <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"1acc569c5bdca37e1e8dd07cf","lid":"180d804797","uniqueMethods":true}) })</script>
+                   
+                   
+                   
+                   </footer>
+
+            </div>
+            <script src="/touch.contact.js"></script>
+      
      
     
 </body>
