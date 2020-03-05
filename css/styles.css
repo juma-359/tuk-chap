@@ -8,12 +8,10 @@ body{
     width: 100%;
     padding-top: 0%;
     margin: auto;
-    background-color: #dc3545;
+    background-color: black;
     
 }
-header{
-    background-color: #dc3545;
-}
+
 header::after{
     content: '';
     display: table;
