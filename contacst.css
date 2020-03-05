@@ -90,3 +90,11 @@ input[type="submit"] {
   border-radius: 5px;
   background: #e19c1a;
 }
+    
+
+.social li {
+   
+vertical-align: top;
+display: inline;
+
+}
