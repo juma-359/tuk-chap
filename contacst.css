@@ -98,3 +98,16 @@ vertical-align: top;
 display: inline;
 
 }
+ul,li,a{
+  list-style-type: none;
+  text-align: center;
+  font-size: 40px;
+  padding-top:10%;
+}
+#para{
+  text-align: center;
+  
+  padding-top: 9px;
+  margin-bottom: 0px;
+  height: 30VH;
+}
