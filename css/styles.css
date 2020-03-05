@@ -8,11 +8,11 @@ body{
     width: 100%;
     padding-top: 0%;
     margin: auto;
-    background-color:#F54B42;
+    background-color: #dc3545;
     
 }
 header{
-    background-color:#F54B42;
+    background-color: #dc3545;
 }
 header::after{
     content: '';
@@ -21,8 +21,8 @@ header::after{
 }
 nav{
     float: right;
-    color: #F54B42;
-    background-color:#F54B42 ;
+    color:  #dc3545;
+  background-color: #dc3545 ;
     width: 100%;
 }
 nav ol{
@@ -78,7 +78,7 @@ h1{
     color: honeydew;
     z-index: 1;
     overflow: hidden;
-    background-color:#F54B42;
+    background-color:#dc3545;
 }
 h1:before{
     content: '';
