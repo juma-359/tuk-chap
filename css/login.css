@@ -1,72 +1,13 @@
-/* body{
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
-}
-#login-page{
-    width: 360px;
-    padding: 10% 0 0;
-    margin: auto;
-}
-.form{
-    position: relative;
-    z-index: 1;
-    background:#e6081a;
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 45px;
-    text-align: center;
-}
-.form input{
-    font-family: "Roboto", sans-serif;
-    outline: 1;
-    background: #f2f2f2;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 14px;
-}
-.form button{
-    font-family: "roboto", sans-serif;
-    text-transform: uppercase;
-    outline: 0;
-    background: #4caf50;
-    width: 100%;
-    border: 0;
-    padding: 15px;
-    color: #FFFFFF;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.form button:hover, .form button:active{
-    background: #43a047;
-}
-
-.form .message{
-    margin: 15px 0 0;
-    color: aliceblue;
-    font-size: 15px;
-}
-.form .message a{
-    color: greenyellow;
-}
-.form .register-form{
-    display: none;
-} */
-
-/* test */
-
 *{
     box-sizing: border-box;
 }
 body{
     font-family: 'Montserrat',sans-serif;
-    background: #f6f5f7;
+    background: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: -20px 0 50px;
 }
@@ -87,23 +28,24 @@ span{
 }
 
 a{
-    color: #333;
+    color: grey;
     font-size: 14px;
     text-decoration: none;
-    margin: 151px 0;
+    margin: 15px 0;
 }
 
 .container{
-    background: whitesmoke;
+    background: transparent;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
     position: relative;
+    overflow: hidden;
     width: 768px;
     max-width: 100%;
     min-height: 480px;
 }
 .form-conntainer{
-    background: white;
+    background: transparent;
     display: flex;
     flex-direction: column;
     padding: 0 50px;
@@ -129,7 +71,7 @@ a{
 }
 
 .form-container input{
-    background: #eee;
+    background: transparent;
     border: none;
     padding: 12px 15px;
     margin: 8px 0;
@@ -137,9 +79,9 @@ a{
 }
 button{
     border-radius: 20px;
-    border: 1px solid #ff4b2b;
-    background: #ff4b2b;
-    color: white;
+    border: 1px solid rgb(158, 9, 9);
+    background: rgb(145, 18, 18);
+    color: whitesmoke;
     font-size: 12px;
     font-weight: bold;
     padding: 12px 45px;
@@ -153,30 +95,37 @@ button:active{
     transform: scale(0.95s);
 }
 
-butto:focus{
+button:focus{
     outline: none;
 }
 
 button.ghost{
     background: transparent;
-    border-color: #fff;
+    border-color: wheat;
 }
 
-.form-conntainer{
+.form-container{
     position: absolute;
     top: 0;
+    width: 100%;
     height: 100%;
     transition: all 0.6s ease-in-out;
 }
 
 .sign-in-container{
     left: 0;
+    padding-top: 50px;
     width: 50%;
+    justify-content: center;
+    text-align: center;
     z-index: 2;
 }
 .sign-up-container{
     left: 0;
+    margin-top: 5%;
     width: 50%;
+    justify-content: center;
+    text-align: center;
     opacity: 0;
     z-index: 1;
 }
@@ -189,13 +138,13 @@ button.ghost{
     height: 100%;
     overflow: hidden;
     transition: transform 0.6s ease-in-out;
-    z-index: 100;
+    /* z-index: 100; */
 }
 
 .overlay{
-    background: #ff416c;
-    background: linear-gradient(to right #ff4b2b, #ff416c) no-repeat 0 0 / cover;
-    color: #fff;
+    background: rgb(180, 8, 8);
+    background: linear-gradient(to right #831502, #700207) no-repeat 0 0 / cover;
+    color: wheat;
     position: relative;
     left: -100%;
     height: 100%;
@@ -222,18 +171,18 @@ button.ghost{
     transform: translateX(0);
 }
 .overlay-left{
-    transform: translateX(-20);
+    transform: translateX(-20%);
 }
 
 .container.right-panel-active .sign-in-container{
-    transform: translateX(100%);
+    transform: translateX(-100%);
 }
 .container.right-panel-active .overlay-container{
     transform: translateX(-100%);
 }
 
 .container.right-panel-active .sign-up-container{
-    transform: translateX(-100%);
+    transform: translateX(100%);
     opacity: 1;
     z-index: 5;
 }
