@@ -7,7 +7,6 @@
 }
 
 
-
 .commercial2{
     height: 300px;
     padding-top: 100px;
@@ -27,6 +26,7 @@
 
 .commercial5{
    color: white;
+   background: linear-gradient(90deg, rgba(177,64,200,1) 0%, rgba(109,9,121,1) 35%, rgba(45,1,62,1) 100%);
 }
 
 .row .subscribe{
