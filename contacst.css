@@ -14,6 +14,58 @@ body{
   opacity: 1;
 }
 
+nav{
+    float: right;
+    color:  #dc3545;
+  background-color: #dc3545 ;
+    width: 100%;
+}
+nav ol{
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    float: right;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+nav la{
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 40px;
+    height: 50px;
+    position: relative;
+    padding-bottom: 0;
+    padding-left:20px ;
+}
+nav a{
+    color: #444;
+    text-decoration:none ;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover{
+    color: white;
+}
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 400ms;
+}
+nav a:hover::before{
+    width:100%;
+}
+h1 .ju{
+  color: white;
+}
+
 .cont{
   position: relative;
   display: block;

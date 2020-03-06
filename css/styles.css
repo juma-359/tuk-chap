@@ -12,7 +12,7 @@ body{
     
 }
 
-header::after{
+header:after{
     content: '';
     display: table;
     clear: both;
@@ -98,7 +98,7 @@ h1:before{
         left: -200%;
     }
 }
-h1 span{
+h1 .ju{
     color: white;
 }
 .chap{
